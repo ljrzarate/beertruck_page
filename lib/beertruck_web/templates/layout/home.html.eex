@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Hello Beertruck!</title>
+    <!-- Vendor -->
+
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro%7CAnton" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>"> -->
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/normalize.css") %>">
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/bootstrap.min.css") %>">
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/font-awesome.min.css") %>">
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/animate.min.css") %>">
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/introLoader.min.css") %>">
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/featherlight.min.css") %>">
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/slick.css") %>">
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/slick-theme.css") %>">
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/tooltipster.css") %>">
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/selectric.custom.css") %>">
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/main.css") %>">
+
+    <!-- Page Specific Styles -->
+    <link rel="stylesheet" type="text/css" href="<%= static_path(@conn, "/css/aos.css") %>">
+    <link rel="stylesheet" type="text/css" href="<%= static_path(@conn, "/css/remodal.css") %>">
+    <link rel="stylesheet" type="text/css" href="<%= static_path(@conn, "/css/remodal-default-theme.custom.css") %>">
+
+    <!-- Modernizr -->
+    <script src="<%= static_path(@conn, "/js/vendor/modernizr.js") %>"></script>
+  </head>
+
+  <body class="home">
+    <div class="hero-wrap" style="background-image: url(images/headers/7.jpg);">
+      <%= render BeertruckWeb.LayoutView, "_navigation.html", conn: @conn %>
+
+      <%= render BeertruckWeb.LayoutView, "_header.html", conn: @conn %>
+
+      <!-- Hero Start -->
+      <a class="fa fa-chevron-down animated flash infinite hero-start " href="javascript:void(0);"></a>
+    </div>
+    <main class="entry-content">
+      <%= render @view_module, @view_template, assigns %>
+    </main>
+    <%= render BeertruckWeb.LayoutView, "_footer.html", conn: @conn %>
+    <%= render BeertruckWeb.LayoutView, "_mobile_navigation.html", conn: @conn %>
+
+    <!-- Preloader -->
+    <%# <div class="introLoading"></div> %>
+
+    <div>
+      <a class="back-to-top fa fa-chevron-up" href="javacript:void(0);"></a>
+    </div>
+
+    <!-- <script src="<%= static_path(@conn, "/js/app.js") %>"></script> -->
+
+    <!-- Core -->
+    <script src="<%= static_path(@conn, "/js/vendor/jquery.min.js") %>"></script>
+    <script src="<%= static_path(@conn, "/js/vendor/jquery-ui.min.js") %>"></script>
+
+    <!-- Vendor -->
+    <script src="<%= static_path(@conn, "/js/vendor/bootstrap.min.js") %>"></script>
+    <script src="<%= static_path(@conn, "/js/vendor/jquery.selectric.min.js") %>"></script>
+    <script src="https://maps.google.com/maps/api/js?key=AIzaSyBwOM-0o426zcLxUoCtWo2MSzISsAn6S1M"></script>
+    <script src="<%= static_path(@conn, "/js/vendor/gmaps.min.js") %>"></script>
+    <script src="<%= static_path(@conn, "/js/vendor/jquery.waypoints.min.js") %>"></script>
+    <script src="<%= static_path(@conn, "/js/vendor/SmoothScroll.js") %>"></script>
+    <script src="<%= static_path(@conn, "/js/vendor/jquery.hoverIntent.js") %>"></script>
+    <script src="<%= static_path(@conn, "/js/vendor/jquery.simpler-sidebar.min.js") %>"></script>
+    <script src="<%= static_path(@conn, "/js/vendor/jquery.introLoader.pack.min.js") %>"></script>
+    <script src="<%= static_path(@conn, "/js/vendor/featherlight.min.js") %>"></script>
+    <script src="<%= static_path(@conn, "/js/vendor/featherlight.gallery.min.js") %>"></script>
+    <script src="<%= static_path(@conn, "/js/vendor/slick.min.js") %>"></script>
+    <script src="<%= static_path(@conn, "/js/vendor/jquery.tooltipster.min.js") %>"></script>
+    <script src="<%= static_path(@conn, "/js/vendor/imagesloaded.pkgd.min.js") %>"></script>
+    <script src="<%= static_path(@conn, "/js/vendor/isotope.pkgd.min.js") %>"></script>
+    <script src="<%= static_path(@conn, "/js/vendor/packery-mode.pkgd.min.js") %>"></script>
+    <script src="<%= static_path(@conn, "/js/vendor/parsley.min.js") %>"></script>
+
+    <!-- Vendor (Page Specific) -->
+    <script src="<%= static_path(@conn, "/js/vendor/remodal.min.js") %>"></script>
+    <script src="<%= static_path(@conn, "/js/vendor/aos.js") %>"></script>
+
+    <!-- Theme -->
+    <script src="js/main.js"></script>
+
+  </body>
+</html>

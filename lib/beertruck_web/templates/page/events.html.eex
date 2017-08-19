@@ -1,0 +1,72 @@
+<main class="entry-content">
+
+  <!-- Breadcrumbs -->
+  <div class="page-breadcrumbs">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ol class="list-inline list-unstyled" itemscope itemtype="http://schema.org/BreadcrumbList">
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+              <a itemprop="item" href="index.html"><span itemprop="name">Home</span></a>
+              <meta itemprop="position" content="1" />
+            </li>
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+              <span itemprop="name">Events</span>
+              <meta itemprop="position" content="2" />
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="page-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="events-wrapper">
+            <img alt="" src="images/general/3.jpg" />
+            <h3 class="event-title">Beer Tasting</h3>
+            <ul class="event-meta list-inline">
+              <li class="event-time">6.00PM - 10.00PM</li>
+              <li class="event-date">20th Feb</li>
+              <li class="event-location">London</li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+            <a class="event-btn btn btn-sm btn-default" href="javascript:void(0);" data-remodal-target="event-1">Learn More</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="events-wrapper">
+            <img alt="" src="images/general/2.jpg" />
+            <h3 class="event-title">Meet &amp; Greet</h3>
+            <ul class="event-meta list-inline">
+              <li class="event-time">9.00PM - 1.00AM</li>
+              <li class="event-date">Wed 29th Feb</li>
+              <li class="event-location">London</li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+            <a class="event-btn btn btn-sm btn-default" href="contact.html" data-remodal-target="event-2">Learn More</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="events-wrapper">
+            <img alt="" src="images/general/5.jpg" />
+            <h3 class="event-title">Launch Party</h3>
+            <ul class="event-meta list-inline">
+              <li class="event-time">12.00PM - 4.00PM</li>
+              <li class="event-date">11th Mar</li>
+              <li class="event-location">London</li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+            <a class="event-btn btn btn-sm btn-default" href="contact.html" data-remodal-target="event-3">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main><!-- /.enry-content -->

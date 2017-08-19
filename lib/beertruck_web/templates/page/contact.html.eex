@@ -1,0 +1,82 @@
+<!-- Page Content -->
+<main class="entry-content">
+
+  <!-- Breadcrumbs -->
+  <div class="page-breadcrumbs">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ol class="list-inline list-unstyled" itemscope itemtype="http://schema.org/BreadcrumbList">
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+              <a itemprop="item" href="index.html"><span itemprop="name">Home</span></a>
+              <meta itemprop="position" content="1" />
+            </li>
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+              <span itemprop="name">Contact</span>
+              <meta itemprop="position" content="2" />
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section Title -->
+  <section class="page-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <form id="page-contact" data-parsley-validate>
+            <fieldset>
+              <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+                  <label>Name</label>
+                  <input class="form-control" type="text" placeholder="Enter Name" data-parsley-required="true" data-parsley-required-message="This field is required" />
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+                  <label>Email</label>
+                  <input class="form-control" type="email" placeholder="Enter Email" data-parsley-required="true" data-parsley-type="email" data-parsley-required-message="This field is required" />
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+                  <label>Phone</label>
+                  <input class="form-control" type="text" placeholder="Enter Number" data-parsley-type="digits" data-parsley-required="true" data-parsley-required-message="This field is required"/>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+                  <div class="form-group">
+                    <label>Enquiry Type</label>
+                    <select class="form-control">
+                      <option>General</option>
+                      <option>Trade</option>
+                      <option>Event</option>
+                      <option>Jobs</option>
+                      <option>Other</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-xs-12 form-group">
+                  <label>Message</label>
+                  <textarea class="form-control" rows="10" placeholder="Enter Message" data-parsley-required="true" data-parsley-required-message="This field is required"></textarea>
+                </div>
+                <div class="col-xs-12 form-group">
+                  <button type="submit" class="btn btn-default btn-md">Send</button>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+        <div class="col-md-4">
+          <div class="contact-details">
+            <ul class="list-unstyled">
+              <li><i class="fa fa-map-marker"></i> <strong>Covent Garden, London, W1</strong></li>
+              <li><i class="fa fa-phone"></i> 00000 000000</li>
+              <li><i class="fa fa-fax"></i> 00000 000000</li>
+            </ul>
+          </div>
+          <div class="contact-gmap"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+</main><!-- /.enry-content -->

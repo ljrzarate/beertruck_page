@@ -1,0 +1,105 @@
+<section class="page-section home-section no-padding no-margin">
+  <div class="feature-wrapper">
+    <div class="container-fluid">
+      <div class="row no-gutter">
+        <div class="col-md-4">
+          <div class="features-grid">
+            <a href="jobs.html">
+              <figure>
+                <img alt="" src="<%= static_path(@conn, "/images/home/feature-jobs.jpg") %>"/>
+                <figcaption>
+                  <h2>We're Hiring</h2>
+                  <p>View our latest job positions</p>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="features-grid">
+            <a href="events.html">
+              <figure>
+                <img alt="" src="<%= static_path(@conn, "/images/home/feature-events.jpg") %>"/>
+                <figcaption>
+                  <h2>Upcoming Events</h2>
+                  <p>See our latest events schedule</p>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="features-grid">
+            <a href="contact.html">
+              <figure>
+                <img alt="" src="<%= static_path(@conn, "/images/home/feature-contact.jpg") %>"/>
+                <figcaption>
+                  <h2>Get in Touch</h2>
+                  <p>Let us know your opinion</p>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page-section home-section">
+  <div class="container" data-aos="fade-up" data-aos-offset="200">
+    <h3 class="section-heading"><span>Award Winning</span></h3>
+    <div class="row">
+      <div class="clients-carousel">
+        <div class="client-item">
+          <a href="javascript:void(0);"><img alt="" src="images/awards/award13.png" /></a>
+          <h4 class="award-title">Award Title</h4>
+        </div>
+        <div class="client-item">
+          <a href="javascript:void(0);"><img alt="" src="images/awards/award14.png" /></a>
+          <h4 class="award-title">Award Title</h4>
+        </div>
+        <div class="client-item">
+          <a href="javascript:void(0);"><img alt="" src="images/awards/award15.png" /></a>
+          <h4 class="award-title">Award Title</h4>
+        </div>
+        <div class="client-item">
+          <a href="javascript:void(0);"><img alt="" src="images/awards/award16.png" /></a>
+          <h4 class="award-title">Award Title</h4>
+        </div>
+        <div class="client-item">
+          <a href="javascript:void(0);"><img alt="" src="images/awards/award1.png" /></a>
+          <h4 class="award-title">Award Title</h4>
+        </div>
+        <div class="client-item">
+          <a href="javascript:void(0);"><img alt="" src="images/awards/award2.png" /></a>
+          <h4 class="award-title">Award Title</h4>
+        </div>
+        <div class="client-item">
+          <a href="javascript:void(0);"><img alt="" src="images/awards/award3.png" /></a>
+          <h4 class="award-title">Award Title</h4>
+        </div>
+        <div class="client-item">
+          <a href="javascript:void(0);"><img alt="" src="images/awards/award4.png" /></a>
+          <h4 class="award-title">Award Title</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page-section home-section" >
+  <div class="container" data-aos="fade-up" data-aos-offset="200">
+    <h3 class="section-heading"><span>Find Us</span></h3>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="home-gmap"></div>
+      </div>
+      <div class="col-md-6">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <a class="btn btn-default" href="about.html">Learn More</a>
+      </div>
+    </div>
+  </div>
+</section>
