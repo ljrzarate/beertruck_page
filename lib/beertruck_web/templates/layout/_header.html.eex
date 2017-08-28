@@ -6,8 +6,8 @@
 
         <div class="col-md-push-5 col-md-7 col-sm-12 col-xs-12">
           <div class="header-content">
-            <h1 class="title">La moño y su combo</h1>
-            <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <h1 class="title">Compartimos tus mejores momentos</h1>
+            <p class="subtitle">Compartir los momentos importantes y felices de nuestros clientes de una manera fresca, divertida y diferente. Hacemos la diferencia por nuestra innovación en el expendio de cervezas y servicio al cliente. Le ofrecemos a nuestros cosumidores un espacio descomplicado, fresco, sencillo pero impactante y que les traerá felicidad. Esto se convierte para nuestro equipo humano en un protocolo que surge desde lo más profundo del ser y desde la pasión por el servicio a los demás; que su vez se refleja en la satisfacción de todos y cada uno de nuestros clientes</p>
             <div class="btn-wrap">
 
               <a href="<%= page_path(@conn, :about) %>" class="btn btn-hero">Learn More</a>

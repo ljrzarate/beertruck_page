@@ -147,6 +147,9 @@ aside {
   -moz-box-shadow: 0 4px 2px -3px;
   box-shadow: 0 4px 2px -3px;
 }
+.text-justify {
+  text-align: justify;
+}
 /*------------------------------------------------------------------
 # 3. Buttons
 -------------------------------------------------------------------*/
@@ -329,7 +332,7 @@ aside {
   transform: translate(-50%, 0);
 }
 .branding-wrapper .branding-logo > img {
-  max-width: 220px;
+  max-width: 250px;
   margin: 10px 0 0 0;
   -webkit-transition: all 0.25s linear;
   -moz-transition: all 0.25s linear;

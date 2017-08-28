@@ -20,6 +20,7 @@ defmodule BeertruckWeb.Router do
     get "/about", PageController, :about
     get "/events", PageController, :events
     get "/contact", PageController, :contact
+    get "/what_we_do", PageController, :what_we_do
   end
 
   # Other scopes may use custom stacks.

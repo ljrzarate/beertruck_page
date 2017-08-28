@@ -6,6 +6,7 @@
         <li><a href="<%= page_path(@conn, :index)%>">Home</a></li>
         <%# <li><a href="beers.html">Beers</a></li> %>
         <li><a href="<%= page_path(@conn, :about)%>">About</a></li>
+        <li><a href="<%= page_path(@conn, :what_we_do) %>">Que hacemos</a></li>
         <%# <li><a href="jobs.html">Jobs</a></li> %>
         <li><a href="<%= page_path(@conn, :events)%>">Events</a></li>
         <%# <li class="has-child"><a href="javascript:void(0)">News</a>

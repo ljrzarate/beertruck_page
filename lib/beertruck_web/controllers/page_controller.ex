@@ -17,4 +17,8 @@ defmodule BeertruckWeb.PageController do
   def contact(conn, _params) do
     render conn, "contact.html"
   end
+
+  def what_we_do(conn, _params) do
+    render conn, "what_we_do.html"
+  end
 end

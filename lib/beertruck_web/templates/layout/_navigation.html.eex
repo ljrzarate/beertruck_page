@@ -5,10 +5,15 @@
       <nav class="list-unstyled main-navigation">
         <!-- Left Menu -->
         <ul class="list-unstyled list-inline topbar-left col-md-5">
-          <li class="current"><a href="<%= page_path(@conn, :index) %>">Home</a></li>
+          <li class="<%=active_class(@conn, page_path(@conn, :index))%>">
+            <%= link "Inicio", to: page_path(@conn, :index)%>
+          </li>
+
           <!-- <li><a href="beers.html">Beers</a></li> -->
 
-          <li><a href="<%= page_path(@conn, :about) %>">About</a></li>
+          <li class="<%=active_class(@conn, page_path(@conn, :about))%>">
+            <%= link "Sobre Nosotros", to: page_path(@conn, :about)%>
+          </li>
           <!-- <li><a href="events.html">Events</a></li>
           <li><a href="contact.html">Contact</a></li> -->
           <!-- <li><a href="jobs.html">Jobs</a></li> -->
@@ -16,8 +21,15 @@
 
         <!-- Right Menu -->
         <ul class="list-unstyled list-inline topbar-right col-md-5">
-          <li><a href="<%= page_path(@conn, :events) %>">Events</a></li>
-          <li><a href="<%= page_path(@conn, :contact) %>">Contact</a></li>
+          <li class="<%=active_class(@conn, page_path(@conn, :events))%>">
+            <%= link "Eventos", to: page_path(@conn, :events)%>
+          </li>
+          <li class="<%=active_class(@conn, page_path(@conn, :contact))%>">
+            <%= link "Contacto", to: page_path(@conn, :contact)%>
+          </li>
+          <li class="<%=active_class(@conn, page_path(@conn, :what_we_do))%>">
+            <%= link "Que hacemos?", to: page_path(@conn, :what_we_do)%>
+          </li>
           <!-- <li><a href="events.html">Events</a></li>
           <li class="has-child"><a href="index.html">News</a>
             <ul class="submenu submenu-default list-unstyled">

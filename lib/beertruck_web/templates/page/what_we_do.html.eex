@@ -1,0 +1,78 @@
+<main class="entry-content">
+
+  <!-- Breadcrumbs -->
+  <div class="page-breadcrumbs">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ol class="list-inline list-unstyled" itemscope itemtype="http://schema.org/BreadcrumbList">
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+              <a itemprop="item" href="<%= page_path(@conn, :index) %>"><span itemprop="name">Inicio</span></a>
+              <meta itemprop="position" content="1" />
+            </li>
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+              <span itemprop="name">Que hacemos</span>
+              <meta itemprop="position" content="2" />
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="page-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="about-slider">
+            <a class="about-single-gallery" href="images/general/1.jpg"><img alt="" src="images/general/1.jpg"></a>
+            <a class="about-single-gallery" href="images/general/7.jpg"><img alt="" src="images/general/7.jpg"></a>
+            <a class="about-single-gallery" href="images/general/9.jpg"><img alt="" src="images/general/9.jpg"></a>
+            <a class="about-single-gallery" href="images/general/11.jpg"><img alt="" src="images/general/11.jpg"></a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h4>Fiesta en casa:</h4>
+          <p> Si eres de las personas de plan familiar, que le gusta organizar fiesta en casa con sus amigos, sin dejar atrás un estilo especial, fresco y creativo, Beertruck puede ayudarte, llevamos la cerveza a casa y brindamos contigo y tus amigos por más momentos como lo que te da Beertruck.</p>
+
+          <p>El Beertruck es un negocio sobre ruedas donde la cerveza está ‘al alcance de su mano’.</p>
+
+          <p>El movimiento busca acercar la oferta al cliente, bajo los más exquisitos y módicos estándares de calidad de servicio a personas con muy buen gusto, que le quieran dar un toque de estilo y autenticidad a sus momentos, celebraciones o su caminar en el día a día. Nuestra propuesta no tiene límites.</p>
+        </div>
+
+        <div class="col-md-6">
+          <h4>Eventos masivos:</h4>
+          <p> Al lugar que nos podamos trasladar ahí estaremos, por eso estamos presentes en los eventos importantes de la ciudad y allí podrás degustar de nuestros principal producto, una michelada al estilo Beertuck, disfrutar de nuestro servicio y de un espacio agradable y divertido.</p>
+        </div>
+
+        <div class="col-md-6">
+          <h4>Tiempo de Fiesta:</h4>
+          <p> Sabemos que al buen costeño, le gusta organizar fiesta para todo, por eso no dudes en llamarnos en tu matrimonio, quinceañero, baby shower,</p>
+          <p>cumpleaños, bautizos, primera comunión, despedida de soltero, grados, fiestas empresariales o cualquier otro evento en el que quieras tener presente el Beertruck. Nuestra propuesta no tiene límites.</p>
+        </div>
+
+        <div class="col-md-6">
+          <h4>Cerveza a la calle:</h4>
+          <p class=""> Estas en la calle y el calor que produce el solazo de la ciudad
+          a veces te pide una cerveza bien fría, o una michelada al estilo Beertruck, con
+          nosotros la puedes tener al ‘ alcance de tu mano’. Beertruck estará en diferentes
+          puntos estratégicos de la ciudad para que disfrutes de nuestros productos, solo
+          tienes que estar atento a nuestras redes sociales, allí podrás rastrear las mejores
+          Micheladas de Barranquilla.</p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Locations -->
+  <section class="page-section no-padding">
+    <div class="container-fluid">
+      <div class="row no-gutter">
+        <div class="col-md-12">
+          <div id="gmap"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main><!-- /.enry-content -->

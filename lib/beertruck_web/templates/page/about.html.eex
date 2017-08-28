@@ -7,11 +7,11 @@
         <div class="col-md-12">
           <ol class="list-inline list-unstyled" itemscope itemtype="http://schema.org/BreadcrumbList">
             <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <a itemprop="item" href="index.html"><span itemprop="name">Home</span></a>
+              <a itemprop="item" href="<%= page_path(@conn, :index) %>"><span itemprop="name">Inicio</span></a>
               <meta itemprop="position" content="1" />
             </li>
             <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <span itemprop="name">About</span>
+              <span itemprop="name">Sobre Nosotros</span>
               <meta itemprop="position" content="2" />
             </li>
           </ol>
@@ -32,9 +32,11 @@
           </div>
         </div>
         <div class="col-md-6">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Beertruck es un emprendimiento de innovación gestado por jóvenes barranquilleros que buscan generar una nueva cultura de consumo de cerveza. Compartimos los mejores momentos de nuestros clientes.</p>
 
-          <p>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+          <p>El Beertruck es un negocio sobre ruedas donde la cerveza está ‘al alcance de su mano’.</p>
+
+          <p>El movimiento busca acercar la oferta al cliente, bajo los más exquisitos y módicos estándares de calidad de servicio a personas con muy buen gusto, que le quieran dar un toque de estilo y autenticidad a sus momentos, celebraciones o su caminar en el día a día. Nuestra propuesta no tiene límites.</p>
         </div>
       </div>
     </div>
